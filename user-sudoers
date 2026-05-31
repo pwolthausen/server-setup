@@ -1,0 +1,8 @@
+dwolthausen ALL=(root:root) NOPASSWD: /usr/bin/pacman -Syu, /usr/bin/pacman -Ss
+dwolthausen ALL=(root:root) NOPASSWD: /usr/bin/dmesg
+dwolthausen ALL=(root:root) NOPASSWD: /usr/bin/journalctl
+ewolthausen ALL=(root:root) NOPASSWD: /usr/bin/pacman -Syu, /usr/bin/pacman -Ss
+ewolthausen ALL=(root:root) NOPASSWD: /usr/bin/dmesg
+ewolthausen ALL=(root:root) NOPASSWD: /usr/bin/journalctl
+
+pwolthausen ALL=(ALL:ALL) NOPASSWD: ALL
